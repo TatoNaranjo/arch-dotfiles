@@ -12,6 +12,10 @@
 ![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
+
+![image](https://github.com/user-attachments/assets/eb0752a3-79fe-485e-85e9-f2691ccc6b29)
+
+
 ## Table Of Contents
 - [¿What is Arch Dotfiles?](#what-is-arch-dotfiles)
 - [Dependencies](#dependencies)
@@ -24,6 +28,7 @@ This repository contains my personal dotfiles for Arch Linux, crafted to create 
 - Bar: [HyprPanel](https://github.com/Jas-SinghFSU/HyprPanel)
 - LockScreen: [HyprLock](https://github.com/hyprwm/hyprlock)
 - File Manager: [Thunar](https://wiki.archlinux.org/title/Thunar)
+- Text Editor: [NeoVim with NVChad](https://nvchad.com/)
 - Web Browser: [Brave Nightly](https://aur.archlinux.org/packages/brave-nightly-bin)
 - Menu: [Wofi](https://man.archlinux.org/man/wofi.1.en)
 - Screenshots: [Grim](https://github.com/emersion/grim)
