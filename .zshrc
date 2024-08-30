@@ -117,7 +117,7 @@ source $ZSH/oh-my-zsh.sh
 # Alias to watch movies by CLI using Lobster 
 alias movie="lobster -l spanish -i"
 # Alias to know the password of the Connected WI-FI network
-alias lookpass = "nmcli device wifi show-password"
+alias lookpass="nmcli device wifi show-password"
 
 # Alias to access easily to my contests & upsolving folder
 alias contest="cd Desktop/Projects/cpp/Contests/"
