@@ -122,6 +122,20 @@ alias lookpass="nmcli device wifi show-password"
 # Alias to access easily to my contests & upsolving folder
 alias contest="cd Desktop/Projects/cpp/Contests/"
 alias upsolve="cd Desktop/Projects/cpp/Contests/Upsolvings/"
+
+# Alias to compile an exercise of competitive programming
+
+run() {
+  g++ "$1" -o a.out && ./a.out
+}
+
+# Alias to run a project 
+alias runvite="npm run dev"
+
+# Alias to upload notes from Obsidian To Quartz
+
+alias updateNotes="cd Desktop/Projects/quartz/content/ && git pull && cd .. && npx quartz sync --no-pull"
+
 # funtion for extracting files
 
 function extract {
@@ -178,3 +192,5 @@ export PATH=$PATH:/home/tato/.local/bin
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
