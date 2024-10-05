@@ -27,3 +27,6 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 alias config='/usr/bin/git --git-dir=/home/tato/.cfg/ --work-tree=/home/tato'
+alias config='/usr/bin/git --git-dir=/home/tato/.cfg/ --work-tree=/home/tato'
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
