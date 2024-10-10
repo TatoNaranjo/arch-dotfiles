@@ -194,3 +194,5 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+PATH="$HOME/.local/bin:${PATH}"
+export PATH
